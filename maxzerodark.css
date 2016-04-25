@@ -1,0 +1,100 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-def			{ color: #aa4444; }
+span.cm-header      { color: #ff4444; }
+span.cm-tag			{ color: #ff4444; }
+span.cm-bracket		{ color: #884444; }
+span.cm-meta		{ color: #884444; }
+
+span.cm-builtin     { color: #f79a55; }
+span.cm-keyword		{ color: #f79a55; }
+span.cm-attribute	{ color: #a08245; }
+span.cm-qualifier	{ color: #a08245; }
+
+span.cm-string		{ color: #008000; }
+span.cm-string-2    { color: #81bf64; }
+span.cm-property	{ color: #008000; } /* property after string */
+span.cm-atom		{ color: #81bf64; }
+
+span.cm-link		{ color: #15adb9; }
+span.cm-number		{ color: #29b2e3; }
+span.cm-variable	{ color: #3d80a0; }
+span.cm-variable-2	{ color: #3d80aa; }
+span.cm-variable-3	{ color: #aaabff; }
+
+span.cm-comment		{ color: #86858b; }
+span.cm-error		{ color: #ff0000; }
+span.cm-operator	{ color: #dddddd; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.5;
+}
+
+.CodeMirror-scroll {
+    background: #212124;
+	color: #c1c6cc;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #fff !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #fff !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #212124;
+}
+
+.CodeMirror-linenumber {
+	color: #5d5d5d;
+}
+
+.CodeMirror-selected {
+    background-color: #004572;
+}
+
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #f00 !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #1f2224 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #fff;
+	background-color: transparent !important;
+}
+
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: #3d5844 !important;
+    color: #e2e2e2 !important;
+}
+
+.CodeMirror-matchingtag {
+    background: #163c22 !important;
+}
+
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #222222;
+}
+
+#image-holder {
+    color: #c1c6cc;
+}

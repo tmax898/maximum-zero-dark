@@ -1,0 +1,15 @@
+{
+    "title": "Maximum Zero Dark",
+    "name": "max-zero-dark",
+    "description": "another dark theme",
+    "version": "1.0.0",
+    "author": "tmax898 (https://github.com/tmax898)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "maxzerodark.css",
+        "dark": true
+    }
+}
